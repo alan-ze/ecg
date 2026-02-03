@@ -1,0 +1,62 @@
+# .gitignore
+# --- Pixi Environment (CRITICAL) ---
+.pixi/
+# Note: DO NOT ignore 'pixi.lock'. It ensures reproducible builds.
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+
+# --- Distribution / Packaging ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Testing & Quality Assurance ---
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+# Optional: Ignore all output cells in notebooks (requires external tools, but good to know)
+# *.ipynb_wasm
+
+# --- VS Code ---
+.vscode/
+# Exception: Keep project-specific settings if your team shares them
+# !.vscode/settings.json
+# !.vscode/launch.json
+# !.vscode/extensions.json
+*.code-workspace
+
+# --- Data ---
+# Prevent accidental commit of large datasets or Excel files
+# It is better to keep data in a specific folder
+data/
+outputs/
+models/
+presentations/
+experiments/
+*.csv
+*.xlsx
+*.xls
+*.h5
+*.parquet
+*.feather
+*.pkl
+*.pkl.gz
+
+# --- Environment Variables / Secrets ---
+.env
+.env.local
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
