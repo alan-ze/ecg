@@ -19,6 +19,7 @@ dependencies = [
     "openpyxl>=3.1.5,<4",
     "xlsxwriter>=3.2.9,<4",
     "tqdm>=4.66",
+    "matlabengine==24.2.*"
 ]
 
 [tool.setuptools.packages.find]
