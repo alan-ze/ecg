@@ -19,6 +19,7 @@ xlsxwriter = ">=3.2.9,<4"
 tqdm = ">=4.66"
 ipykernel = ">=7.1.0,<8"
 pymatreader = ">=1.1.0,<2"
+pytorch = ">=2.10.0,<3"
 
 [pypi-dependencies]
 ecg = { path = ".", editable = true }
