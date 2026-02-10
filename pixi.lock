@@ -1924,7 +1924,7 @@ packages:
 - pypi: ./
   name: ecg
   version: 0.1.0
-  sha256: 599de51dbb3592c1b6458ace1ebc2876b22004bbe461bd198b413daea1b762a4
+  sha256: 2e7eb4e1d7c677d64ccde2e1af9258f02728d5e1929debe16d4819708ef6d0dc
   requires_dist:
   - numpy==1.26.4
   - pandas==2.1.3
@@ -1937,6 +1937,7 @@ packages:
   - xlsxwriter>=3.2.9,<4
   - tqdm>=4.66
   - matlabengine==24.2.*
+  - torch>=2.10.0,<3
   requires_python: '>=3.11'
 - conda: https://conda.anaconda.org/conda-forge/noarch/et_xmlfile-2.0.0-pyhd8ed1ab_1.conda
   sha256: 2209534fbf2f70c20661ff31f57ab6a97b82ee98812e8a2dcb2b36a0d345727c
